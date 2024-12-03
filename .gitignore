@@ -1,0 +1,40 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude any .tfvars files containing sensitive data
+*.tfvars
+*.tfvars.json
+
+# .terraformrc and .kitchen configuration files
+.terraformrc
+.terraform.rc
+.kitchen/
+
+# Node dependencies
+node_modules/
+
+# macOS Finder directory attributes
+.DS_Store
+
+# Terraform plan output files
+*.tfplan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore editor-specific files
+.idea/
+*.swp
+*.bak
+*.tmp
+
